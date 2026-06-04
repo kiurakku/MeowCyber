@@ -1,0 +1,28 @@
+# Build & runtime
+/cyberstrike-ai
+/cyberstrike-ai.exe
+/meowcyber
+/meowcyber.exe
+*.exe
+data/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Secrets & local config
+.env
+*.local.yaml
+config.yaml
+data/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Large / generated
+plugins/**/target/
+*.db-journal
+tmp/
+scripts/uk-i18n-cache.json

@@ -1,0 +1,22 @@
+# Render.com — free tier (sleeps after 15 min idle; wake on request)
+# Docs: https://render.com/docs/deploy-go
+services:
+  - type: web
+    name: meowcyber
+    runtime: docker
+    plan: free
+    region: frankfurt
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: "8080"
+      - key: MEOWCYBER_HTTPS
+        value: "0"
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: AUTH_PASSWORD
+        generateValue: true
+    disk:
+      name: meowcyber-data
+      mountPath: /data
+      sizeGB: 1
