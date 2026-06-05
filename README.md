@@ -4,8 +4,9 @@
 
 # MeowCyber
 
+Форк [CyberStrikeAI](https://github.com/Ed1s0nZ/CyberStrikeAI) з українським інтерфейсом та деплоєм на Render.
 
-[Українська](README_MEOWCYBER_UK.md) | [中文](README_CN.md) | [English](README.md) | [GitHub](https://github.com/kiurakku/MeowCyber)
+[Українська](README_MEOWCYBER_UK.md) | [中文](README_CN.md) | [English](README.md)
 
 **Community**: [Join us on Discord](https://discord.gg/8PjVCMu8Zw)
 
