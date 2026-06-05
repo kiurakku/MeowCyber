@@ -16,7 +16,5 @@ services:
         sync: false
       - key: AUTH_PASSWORD
         generateValue: true
-    disk:
-      name: meowcyber-data
-      mountPath: /data
-      sizeGB: 1
+      - key: MEOWCYBER_DATA_DIR
+        value: "/tmp/meowcyber-data"
